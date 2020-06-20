@@ -1,0 +1,78 @@
+$background-color: #eeeeee;
+$row-color: #ffffff;
+$number-square-color: #fafafa;
+$delete-icon-color: #ef0100;
+$blue-color: 	#25aeef;
+$gray-color: #808285;
+$dark-color:	#2d3031;
+
+body {
+  background-color: $background-color;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: $blue-color;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: 300;
+  color: white;
+}
+
+.body {
+  padding: 20px 50px;
+  margin: auto;
+  width: 300px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-text {
+  color: $blue-color;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.input-box {
+  border: solid 1px $gray-color;
+  border-radius: 4px;
+  height: 14px;
+  width: calc(100% - 16px);
+  margin: 12px;
+  padding: 8px;
+}
+
+::placeholder {
+  color: $dark-color;
+  font-weight: 500;
+}
+
+.login-button {
+  background: $blue-color;
+  color: white;
+  font-size: 18px;
+  outline: $blue-color;
+  width: 75%;
+  padding: 8px;
+  margin: 20px;
+  border: solid 1px $gray-color;
+  border-radius: 6px;
+  cursor: pointer;
+}
