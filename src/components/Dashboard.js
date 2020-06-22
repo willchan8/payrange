@@ -32,7 +32,7 @@ function Dashboard() {
       <div className="balance-footer">
         <div>Balance: ${balance.toFixed(2)}</div>
         <div className="blue-circle">
-          +
+          <div>+</div>
         </div>
       </div>
     </div>
