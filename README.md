@@ -2,6 +2,10 @@
 
 PayRange is a single-page web application that uses React.js with Hooks on the front-end.
 
+Note:
+* Switch to ```master``` branch to see implementation using class components.
+* Switch to ```hooks``` branch to see implementation using hooks and functional components.
+
 ## Instructions
 
 To run the app:
