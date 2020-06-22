@@ -56,8 +56,8 @@ const Dashboard = () => {
       </div>
       <div className="balance-footer">
         <div>Balance: ${balance.toFixed(2)}</div>
-        <div className="blue-circle">
-          <div onClick={handleAddBalance}>+</div>
+        <div className="blue-circle" onClick={handleAddBalance}>
+          <div>+</div>
         </div>
       </div>
     </div>
