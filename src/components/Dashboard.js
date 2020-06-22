@@ -7,6 +7,7 @@ const Dashboard = () => {
   const [currentId, setId] = useState(listItems.devices.length)
 
   const mounted = useRef();
+  // This effect is equivalent to the "componendDidUpdate" lifecycle method.
   useEffect(() => {
     if (!mounted.current) {
       mounted.current = true;
