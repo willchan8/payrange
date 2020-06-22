@@ -4,11 +4,14 @@ PayRange is a single-page web application that uses React.js with Hooks on the f
 
 ## Instructions
 
-To run the app locally:
+To run the app:
 
-1. Navigate to [repo](https://github.com/willchan8/SendMo.git).
-2. Clone locally using `git clone https://github.com/willchan8/SendMo.git`
-
+1. Navigate to [repo](https://github.com/willchan8/payrange).
+2. Open a terminal and clone locally using `git clone https://github.com/willchan8/payrange`.
+3. Change into the target directory using `cd payrange`. 
+4. Install dependencies using `npm install`.
+5. Start your server using `npm start`, which should also open `http://localhost:3000` in your default browser.
+6. Enjoy!
 
 ## Demo
 
