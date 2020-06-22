@@ -37,12 +37,14 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: solid 1px $gray-color ;
   position: relative;
 }
 
 .content {
   padding: 20px 28px;
   width: 100%;
+  max-width: 500px;
   box-sizing: border-box;
 }
 
